@@ -1,0 +1,1 @@
+Crash když high jump fix: Zapnout V-sync / Lock fps
