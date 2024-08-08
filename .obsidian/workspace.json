@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Gamescope.md",
+                "file": "Linux/Firefox nighly.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Gamescope.md",
+                "file": "Linux/Firefox nighly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Gamescope.md",
+                "file": "Linux/Firefox nighly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Gamescope.md"
+                "file": "Linux/Firefox nighly.md"
               }
             }
           }
@@ -179,15 +179,17 @@
   },
   "active": "13cbd077b86da9a3",
   "lastOpenFiles": [
-    "xelova-digidalni-zahrada",
-    "Linux/Piper.md",
+    "Hry/TF2.md",
+    "Linux/Firefox nighly.md",
+    "Hry/Dirt 3 CE.md",
     "Linux/Gamescope.md",
     "Linux/Nvidia.md",
+    "xelova-digidalni-zahrada",
+    "Linux/Piper.md",
     "KDE  Plasma/Triky.md",
     "KDE  Plasma/Plasma motiv.md",
     "Linux",
     "Welcome.md",
-    "Hry/Dirt 3 CE.md",
     "Hry",
     "create a link.md",
     "KDE  Plasma",

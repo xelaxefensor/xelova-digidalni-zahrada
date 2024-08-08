@@ -1,0 +1,1 @@
+Linux x11 crash switch to legacy opengl in steam settigns
