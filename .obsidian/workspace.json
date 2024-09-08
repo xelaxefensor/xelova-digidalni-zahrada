@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDE  Plasma/Nastavení.md",
+                "file": "Linux/Thunderbird.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDE  Plasma/Nastavení.md",
+                "file": "Linux/Thunderbird.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDE  Plasma/Nastavení.md",
+                "file": "Linux/Thunderbird.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDE  Plasma/Nastavení.md"
+                "file": "Linux/Thunderbird.md"
               }
             }
           }
@@ -204,6 +204,8 @@
   },
   "active": "f0bb149430cf6e35",
   "lastOpenFiles": [
+    "KDE  Plasma/Nastavení.md",
+    "Linux/Thunderbird.md",
     "KDE  Plasma/Plasma motiv.md",
     "KDE  Plasma/Triky.md",
     "Linux/vesktop.md",
@@ -211,7 +213,6 @@
     "Hry/Dirt 3 CE.md",
     "Hry/Mafia.md",
     "Hry/TF2.md",
-    "KDE  Plasma/Nastavení.md",
     "Linux/Piper.md",
     "Linux/Gamescope.md",
     "Linux/Nvidia.md",
