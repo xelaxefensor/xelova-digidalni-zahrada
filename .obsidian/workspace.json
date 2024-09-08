@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "22e8fa0c2815d579",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDE  Plasma/Nastavení.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "45d3f7a2024ca234",
@@ -116,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Firefox nighly.md",
+                "file": "KDE  Plasma/Nastavení.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Firefox nighly.md",
+                "file": "KDE  Plasma/Nastavení.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Firefox nighly.md"
+                "file": "KDE  Plasma/Nastavení.md"
               }
             }
           }
@@ -177,17 +190,19 @@
       "command-palette:Otevřít paletu příkazů": false
     }
   },
-  "active": "13cbd077b86da9a3",
+  "active": "22e8fa0c2815d579",
   "lastOpenFiles": [
-    "Hry/TF2.md",
-    "Linux/Firefox nighly.md",
-    "Hry/Dirt 3 CE.md",
-    "Linux/Gamescope.md",
-    "Linux/Nvidia.md",
-    "xelova-digidalni-zahrada",
-    "Linux/Piper.md",
     "KDE  Plasma/Triky.md",
     "KDE  Plasma/Plasma motiv.md",
+    "KDE  Plasma/Nastavení.md",
+    "Linux/Piper.md",
+    "Linux/Nvidia.md",
+    "Linux/Gamescope.md",
+    "Linux/Firefox nighly.md",
+    "Hry/Mafia.md",
+    "Hry/TF2.md",
+    "Hry/Dirt 3 CE.md",
+    "xelova-digidalni-zahrada",
     "Linux",
     "Welcome.md",
     "Hry",
