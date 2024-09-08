@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDE  Plasma/Nastavení.md",
+                "file": "Linux/Firefox nighly.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDE  Plasma/Nastavení.md",
+                "file": "Linux/Firefox nighly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDE  Plasma/Nastavení.md",
+                "file": "Linux/Firefox nighly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDE  Plasma/Nastavení.md"
+                "file": "Linux/Firefox nighly.md"
               }
             }
           }
@@ -192,16 +192,16 @@
   },
   "active": "22e8fa0c2815d579",
   "lastOpenFiles": [
-    "KDE  Plasma/Triky.md",
-    "KDE  Plasma/Plasma motiv.md",
-    "KDE  Plasma/Nastavení.md",
-    "Linux/Piper.md",
-    "Linux/Nvidia.md",
-    "Linux/Gamescope.md",
-    "Linux/Firefox nighly.md",
+    "Hry/Dirt 3 CE.md",
     "Hry/Mafia.md",
     "Hry/TF2.md",
-    "Hry/Dirt 3 CE.md",
+    "KDE  Plasma/Nastavení.md",
+    "KDE  Plasma/Triky.md",
+    "Linux/Piper.md",
+    "Linux/Gamescope.md",
+    "Linux/Firefox nighly.md",
+    "KDE  Plasma/Plasma motiv.md",
+    "Linux/Nvidia.md",
     "xelova-digidalni-zahrada",
     "Linux",
     "Welcome.md",
