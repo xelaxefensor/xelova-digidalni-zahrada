@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/navidrome.md",
+                "file": "Linux/opensuse.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/navidrome.md",
+                "file": "Linux/opensuse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/navidrome.md",
+                "file": "Linux/opensuse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/navidrome.md"
+                "file": "Linux/opensuse.md"
               }
             }
           }
@@ -204,8 +204,9 @@
   },
   "active": "f0bb149430cf6e35",
   "lastOpenFiles": [
-    "Linux/Thunderbird.md",
     "Linux/navidrome.md",
+    "Linux/opensuse.md",
+    "Linux/Thunderbird.md",
     "KDE  Plasma/Nastavení.md",
     "KDE  Plasma/Plasma motiv.md",
     "KDE  Plasma/Triky.md",
