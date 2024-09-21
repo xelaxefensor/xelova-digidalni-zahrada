@@ -161,7 +161,6 @@ apply_selected_appearance() {
                     log_message "Xela Breeze Darker byl úspěšně stažen."
                     # Aplikace barevného schématu pro uživatele
                     sudo -u $SUDO_USER kwriteconfig5 --file "$USER_HOME/.config/kdeglobals" --group General --key ColorScheme "XelaBreezeDarker"
-                    sudo -u $SUDO_USER qdbus-qt5 org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript "location.reloadConfig()"
                 else
                     log_message "Chyba při stahování Xela Breeze Darker."
                 fi
@@ -176,7 +175,6 @@ apply_selected_appearance() {
                     tar --strip-components=1 -xvf /tmp/papirus-icon-theme.tar.gz -C "/usr/share/icons/"
                     # Aplikace ikonového tématu pro uživatele
                     sudo -u $SUDO_USER kwriteconfig5 --file "$USER_HOME/.config/kdeglobals" --group Icons --key Theme "Papirus-Dark"
-                    sudo -u $SUDO_USER qdbus-qt5 org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript "location.reloadConfig()"
                 else
                     log_message "Chyba při stahování ikon Papirus."
                 fi
@@ -191,7 +189,6 @@ apply_selected_appearance() {
                     tar -xvf /tmp/bibata-cursor.tar.xz -C "/usr/share/icons/"
                     # Aplikace kurzorového tématu pro uživatele
                     sudo -u $SUDO_USER kwriteconfig5 --file "$USER_HOME/.config/kcminputrc" --group Mouse --key cursorTheme "Bibata-Modern-Classic"
-                    sudo -u $SUDO_USER qdbus-qt5 org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript "location.reloadConfig()"
                 else
                     log_message "Chyba při stahování kurzoru Bibata."
                 fi
@@ -204,6 +201,7 @@ apply_selected_appearance() {
                     log_message "Stahování Harmony 2 proběhlo úspěšně."
                     mkdir -p "/usr/share/sounds/harmony2"
                     tar -xvf /tmp/harmony2-sounds.tar.gz -C "/usr/share/sounds/harmony2"
+                    sudo -u $SUDO_USER kwriteconfig5 --file "$USER_HOME/.config/kdeglobals" --group "Sounds" --key "Theme" "harmony2"
                 else
                     log_message "Chyba při stahování zvuků Harmony 2."
                 fi
@@ -215,9 +213,7 @@ apply_selected_appearance() {
                 wget -O "/usr/share/wallpapers/wallpaper.png" https://raw.githubusercontent.com/KDE/breeze/master/wallpapers/Next/contents/images_dark/base_size.png
                 if [ $? -eq 0 ]; then
                     log_message "Tapeta byla úspěšně stažena."
-                    # Použití kwriteconfig5 pro nastavení tapety pro uživatele
-                    sudo -u $SUDO_USER kwriteconfig5 --file "$USER_HOME/.config/plasma-org.kde.plasma.desktop-appletsrc" --group Containments --group 1 --group Wallpaper --group org.kde.image --group General --key Image "file:///usr/share/wallpapers/wallpaper.png"
-                    sudo -u $SUDO_USER qdbus-qt5 org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript "location.reloadConfig()"
+                    sudo -u $SUDO_USER DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$(id -u $SUDO_USER)/bus" plasma-apply-wallpaperimage /usr/share/wallpapers/wallpaper.png
                 else
                     log_message "Chyba při stahování tapety."
                 fi
