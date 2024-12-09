@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Nvidia.md",
+                "file": "Škola/OBJ/Objektové programování.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nvidia"
+              "title": "Objektové programování"
             }
           }
         ],
@@ -150,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Nvidia.md"
+                "file": "Škola/OBJ/Objektové programování.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Nvidia"
+              "title": "Outline of Objektové programování"
             }
           }
         ],
@@ -175,29 +175,36 @@
   },
   "active": "e6e0bc0b339437ce",
   "lastOpenFiles": [
-    "Linux/opensuse.md",
+    "KDE  Plasma/Plasma motiv.md",
+    "2024-12-08.md",
+    "Untitled.canvas",
+    "KDE  Plasma/Nastavení.md",
+    "KDE  Plasma/Triky.md",
+    "Linux/Piper.md",
+    "Linux/vesktop.md",
+    "Linux/Firefox nighly.md",
+    "Linux/navidrome.md",
     "Linux/Nvidia.md",
+    "Linux/opensuse.md",
+    "Linux/Thunderbird.md",
+    "Hry/Dirt 3 CE.md",
+    "Škola/DMA/tommy angelo",
+    "Škola/AP/ap1_prednasky_24_25.pdf",
+    "Škola/AL/ADS1-Úvod-01.pdf",
+    "Škola/AL/02-Algoritmizace_a_slozitost.pdf",
+    "Hry/TF2.md",
+    "Hry/Mafia.md",
+    "Škola/LMA/26234252_1559298614106700_490428311_n 1.jpg",
+    "Linux/Gamescope.md",
+    "Škola/DMA/UMB750-06_Uvod_grafy.pdf",
+    "Škola/DMA/UMB750-02_Podmnoziny_zobrazeni.pdf",
+    "Škola/DMA/UMB750_DU_01.pdf",
     "Škola/Architektura počítačů.md",
     "Škola/Objektové programování.md",
-    "Linux/Firefox nighly.md",
     "Škola",
-    "Linux/navidrome.md",
-    "Linux/Thunderbird.md",
-    "KDE  Plasma/Nastavení.md",
-    "KDE  Plasma/Plasma motiv.md",
-    "KDE  Plasma/Triky.md",
-    "Linux/vesktop.md",
-    "Hry/Dirt 3 CE.md",
-    "Hry/Mafia.md",
-    "Hry/TF2.md",
-    "Linux/Piper.md",
-    "Linux/Gamescope.md",
     "xelova-digidalni-zahrada",
     "Linux",
     "Welcome.md",
-    "Hry",
-    "create a link.md",
-    "KDE  Plasma",
-    "Obsidian"
+    "create a link.md"
   ]
 }
