@@ -150,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Škola/OBJ/Objektové programování.md"
+                "file": "Excalidraw/Drawing 2024-12-10 22.47.17.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Objektové programování"
+              "title": "Outline of Drawing 2024-12-10 22.47.17.excalidraw"
             }
           }
         ],
@@ -170,15 +170,23 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "canvas:Create new canvas": false
+      "canvas:Create new canvas": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "0d7f95e193df9d6d",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "Zábava/lu2625mk8.tmp",
     "Zábava/hry co chci zahrát.md",
     "Zábava/Hry co chci zahrát.ods",
     "Škola/OBJ/Objektové programování.md",
+=======
+    "Škola/OBJ/Objektové programování.md",
+    "Untitled.md",
+    "Excalidraw/Drawing 2024-12-10 22.47.17.excalidraw.md",
+    "Excalidraw",
+>>>>>>> Stashed changes
     "KDE  Plasma/Plasma motiv.md",
     "2024-12-08.md",
     "Untitled.canvas",
