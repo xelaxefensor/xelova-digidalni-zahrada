@@ -1,52 +1,41 @@
 {
   "main": {
-    "id": "f56e5ff0cfe21293",
+    "id": "61b42da8c777590c",
     "type": "split",
     "children": [
       {
-        "id": "f8379cf13cc5391e",
+        "id": "953b020ce020b160",
         "type": "tabs",
         "children": [
           {
-            "id": "13cbd077b86da9a3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "e6e0bc0b339437ce",
+            "id": "dec63839cfddda6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Škola/OBJ/Objektové programování.md",
+                "file": "Škola/AL/Pozánky na zkoušku/Poznámky na zkoušku.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Objektové programování"
+              "title": "Poznámky na zkoušku"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "96e98ababeea4412",
+    "id": "c0c1f5f8bd362604",
     "type": "split",
     "children": [
       {
-        "id": "97a409c186dfbcbd",
+        "id": "00066aac983dacb5",
         "type": "tabs",
         "children": [
           {
-            "id": "0d7f95e193df9d6d",
+            "id": "191e102f51ebae4b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,7 +47,7 @@
             }
           },
           {
-            "id": "9f97b68255a52ded",
+            "id": "38df7bb5aa628518",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,7 +64,7 @@
             }
           },
           {
-            "id": "9d8cd0060a522280",
+            "id": "c6d343d7bbea7018",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,20 +80,20 @@
     "width": 300
   },
   "right": {
-    "id": "2909430230e6a7f4",
+    "id": "d7b654bb16102b63",
     "type": "split",
     "children": [
       {
-        "id": "6bd606f38138822d",
+        "id": "5acad642a42226a5",
         "type": "tabs",
         "children": [
           {
-            "id": "4fea232e45b96d6e",
+            "id": "5cdee1a69f18749d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Nvidia.md",
+                "file": "Škola/AL/Pozánky na zkoušku/Poznámky na zkoušku.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,25 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Nvidia"
+              "title": "Backlinks for Poznámky na zkoušku"
             }
           },
           {
-            "id": "cc3962920ebc2b57",
+            "id": "66aecec24ecf6d55",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Nvidia.md",
+                "file": "Škola/AL/Pozánky na zkoušku/Poznámky na zkoušku.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Nvidia"
+              "title": "Outgoing links from Poznámky na zkoušku"
             }
           },
           {
-            "id": "f6b120c3d46cc7d9",
+            "id": "cbc87026ab1513ee",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -145,15 +134,15 @@
             }
           },
           {
-            "id": "911fa4992270a197",
+            "id": "833967493d82b114",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-12-10 22.47.17.excalidraw.md"
+                "file": "Škola/AL/Pozánky na zkoušku/Poznámky na zkoušku.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2024-12-10 22.47.17.excalidraw"
+              "title": "Outline of Poznámky na zkoušku"
             }
           }
         ],
@@ -167,55 +156,35 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "canvas:Create new canvas": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "0d7f95e193df9d6d",
+  "active": "dec63839cfddda6c",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "Zábava/lu2625mk8.tmp",
-    "Zábava/hry co chci zahrát.md",
-    "Zábava/Hry co chci zahrát.ods",
-    "Škola/OBJ/Objektové programování.md",
-=======
-    "Škola/OBJ/Objektové programování.md",
-    "Untitled.md",
-    "Excalidraw/Drawing 2024-12-10 22.47.17.excalidraw.md",
-    "Excalidraw",
->>>>>>> Stashed changes
-    "KDE  Plasma/Plasma motiv.md",
-    "2024-12-08.md",
-    "Untitled.canvas",
-    "KDE  Plasma/Nastavení.md",
-    "KDE  Plasma/Triky.md",
-    "Linux/Piper.md",
-    "Linux/vesktop.md",
+    "Škola/AL/Pozánky na zkoušku/Heapsort-example.gif",
+    "Škola/AL/Pozánky na zkoušku/quick-sort.webp",
+    "Škola/AL/Pozánky na zkoušku/Heap-Sort-Recursive-Illustration.webp",
+    "Škola/AL/Pozánky na zkoušku/Quicksort-example.gif",
+    "Pasted image 20250123185043.png",
+    "Pasted image 20250123184905.png",
+    "Škola/AL/Pozánky na zkoušku/Partition_example.svg",
+    "Škola/AL/Pozánky na zkoušku/Merge_sort_algorithm_diagram.svg",
+    "Škola/AL/Pozánky na zkoušku/Merge-sort-example-300px.gif",
+    "Škola/AL/Pozánky na zkoušku/Bubble-sort-example-300px.gif",
+    "Škola/AL/Pozánky na zkoušku/Big_O_graf.jpeg",
+    "Linux/Nvidia.md",
+    "Škola/AL/Poznámky na zkoušku.md",
+    "Škola/AL/Pozánky na zkoušku/Poznámky na zkoušku.md",
+    "Škola/AL/Pozánky na zkoušku",
+    "Hry/Mafia.md",
+    "Linux/hdr.md",
+    "Linux/Gamescope.md",
     "Linux/Firefox nighly.md",
     "Linux/navidrome.md",
-    "Linux/Nvidia.md",
-    "Linux/opensuse.md",
-    "Linux/Thunderbird.md",
-    "Hry/Dirt 3 CE.md",
-    "Škola/DMA/tommy angelo",
-    "Škola/AP/ap1_prednasky_24_25.pdf",
-    "Škola/AL/ADS1-Úvod-01.pdf",
-    "Škola/AL/02-Algoritmizace_a_slozitost.pdf",
-    "Hry/TF2.md",
-    "Hry/Mafia.md",
-    "Škola/LMA/26234252_1559298614106700_490428311_n 1.jpg",
-    "Linux/Gamescope.md",
-    "Škola/DMA/UMB750-06_Uvod_grafy.pdf",
-    "Škola/DMA/UMB750-02_Podmnoziny_zobrazeni.pdf",
-    "Škola/DMA/UMB750_DU_01.pdf",
-    "Škola/Architektura počítačů.md",
-    "Škola/Objektové programování.md",
-    "Škola",
-    "xelova-digidalni-zahrada",
-    "Welcome.md",
-    "create a link.md"
+    "Linux/vesktop.md",
+    "Linux/opensuse.md"
   ]
 }
