@@ -523,6 +523,8 @@ Heuristika funguje tak, že odhaduje, která pokračování problému mají vět
 
 Bellman-Ford algoritmus slouží k nalezení **nejkratší cesty** od jednoho vrcholu ke všem ostatním vrcholům v grafu, který může obsahovat i **záporné váhy hran**. Algoritmus je **vhodný pro grafy s negativními váhami**, ale nedokáže pracovat s **negativními cykly**, protože takové cykly vedou k neomezenému snižování celkové vzdálenosti.
 
+**Hlavní rozdíl oproti Dijkstrovu algoritmu** spočívá ve způsobu průchodu grafu. Jelikož Dijkstrův algoritmus, jestliže projdeme všechny následníky jednoho uzlu, tak tento uzel „uzavře“ a poté ho už neupravuje. Toto se v Bellmanově–Fordově algoritmu neděje, jelikož tyto uzly neuzavírá takto ihned, ale prochází několikrát všechny uzly a upravuje postupně hodnoty vzdáleností nejkratších cest.
+
 #### Postup:
 
 1. Inicializujeme vzdálenosti všech vrcholů na nekonečno, kromě startovního vrcholu, který nastavíme na 0.
