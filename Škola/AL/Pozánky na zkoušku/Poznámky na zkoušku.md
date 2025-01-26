@@ -434,39 +434,58 @@ del hashtable["banán"]
 
 Vyhledávání řetězců je proces nalezení vzoru (P) v textovém řetězci (T). Tento problém se využívá v textových editorech, webových vyhledávačích nebo analýze obrazů.
 
-#### Základní terminologie
+### **Základní terminologie**
 
-- **Podřetězec**: část řetězce mezi indexy `i` a `j`.
-- **Prefix**: podřetězec od začátku až po index `i`.
-- **Suffix**: podřetězec od indexu `i` do konce.
+- **Podřetězec:** Část řetězce mezi indexy i a j. Například: pro "abcde" je podřetězec "bcd".
+    
+- **Prefix:** Podřetězec od začátku řetězce až po index i. Například: prefix "abc" pro "abcde".
+    
+- **Suffix:** Podřetězec od indexu i do konce řetězce. Například: suffix "cde" pro "abcde".
 
-### Algoritmus hrubé síly (Brute Force)
+### **Algoritmus hrubé síly (Brute Force)**
 
-Algoritmus prochází všechny pozice v textu a porovnává je s vzorem. Pokud najde shodu, vrátí index počátku vzoru. Pokud ne, posune vzor o jeden znak a pokračuje.
+Tento algoritmus prochází všechny možné pozice v textu a porovnává znaky s odpovídajícími znaky vzoru. Pokud najde shodu, vrátí index začátku vzoru. Jinak posune vzor o jeden znak a pokračuje.
 
-- **Časová složitost**: O(mn), kde `m` je délka vzoru a `n` délka textu.
-- **Výhody**: Rychlý pro velké abecedy.
-- **Nevýhody**: Pomalý pro malé abecedy (např. binární soubory).
+- **Časová složitost:** O(mn), kde m je délka vzoru a n délka textu.
+    
+- **Výhody:** Jednoduchý na implementaci, vhodný pro malé texty.
+    
+- **Nevýhody:** Velmi pomalý u dlouhých textů nebo malých abeced (např. binární).
 
-Příklad implementace v Javě ukazuje, jak procházet text a hledat vzor.
+### **Algoritmus Boyer-Moore**
 
-### Algoritmus Boyer-Moore
+Boyer-Moore algoritmus hledá vzor od konce směrem k začátku a přeskakuje části textu, které nemohou obsahovat vzor. Tento mechanismus je založen na dvou klíčových technikách:
 
-Tento algoritmus využívá zrcadlový přístup, kde hledáme vzor od konce směrem k začátku a přeskočíme části textu, které neodpovídají.
+1. **Funkce Last():** Uchovává poslední výsledek znaku ve vzoru. Pokud znak v textu neodpovídá, vzor se posune tak, aby poslední výskyt tohoto znaku odpovídal pozici v textu.
+    
+2. **Pravidlo dobrého suffixu:** Pokud část vzoru odpovídá textu, ale další znak nesouhlasí, vzor se posune podle nejdelší shody suffixu.
+    
 
-- **Funkce Last()**: Předzpracovává vzor a pro každý znak abecedy uchovává poslední výskyt daného znaku.
-- **Časová složitost**: O(nm + A), kde `A` je velikost abecedy.
-- **Výhody**: Rychlý pro velké abecedy, pomalejší pro malé.
+- **Časová složitost:** Průměrná složitost je O(n / m), při nejhorším O(nm).
+    
+- **Výhody:** Velmi rychlý pro velké abecedy.
+    
+- **Nevýhody:** Výkon se zhoršuje u malých abeced.
 
-Příklad ukazuje, jak se vzor posouvá v textu na základě funkce Last().
+### **Algoritmus Knuth-Morris-Pratt (KMP)**
 
-### Algoritmus Knuth-Morris-Pratt (KMP)
+KMP algoritmus využívá chybovou funkci (_failure function_), která definuje nejdelší prefix vzoru, který je také jeho suffixem. Po neshodě tedy algoritmus dokáže přeskočit části vzoru, které se nemohou shodovat, a vyhne se zbytečným porovnáním.
 
-KMP využívá chybovou funkci (failure function), která určuje, jaký je největší možný posun vzoru, aby se vyhnul zbytečným porovnáním po neshodě.
+- **Chybová funkce:** Předzpracování vzoru pro efektivnější vyhledávání.
+    
+- **Časová složitost:** Předzpracování vzoru O(m), vyhledávání O(n).
+    
+- **Výhody:** Rychlejší než brute force, vhodný pro dlouhé texty.
+    
+- **Použití:** Ideální pro hledání klíčových slov nebo vzorů v logách.
 
-- **Chybová funkce**: Předzpracovává vzor a definuje maximální prefix, který je zároveň suffixem vzoru.
-- **Výhody**: Rychlejší než brute force a Boyer-Moore pro specifické případy.
-- **Použití**: Vylepšuje brute force algoritmus tím, že po neshodě přeskočí část vzoru.
+### **Srovnání algoritmů**
+
+| **Algoritmus**     | **Časová složitost** | **Výhody**                                              | **Nevýhody**                        |
+| ------------------ | -------------------- | ------------------------------------------------------- | ----------------------------------- |
+| Brute Force        | O(mn)                | Jednoduchý, vhodný pro malé texty                       | Pomalý pro dlouhé texty             |
+| Boyer-Moore        | O(n / m)             | Velmi rychlý pro velké abecedy                          | Horší výkon u malých abeced         |
+| Knuth-Morris-Pratt | O(n + m)             | Efektivní předzpracování, vyhne se zbytečným porovnáním | Nutnost předzpracování vzoru        |
 
 ---
 
