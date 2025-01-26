@@ -534,7 +534,9 @@ Heuristika funguje tak, že odhaduje, která pokračování problému mají vět
 ### Příklady aplikace:
 
 - **Šachovnice s koněm**: Heuristika vybírá nejlepší tahy, které vedou k menší pravděpodobnosti zablokování cesty.
-- __A_ algoritmus_*: Pro hledání nejkratší cesty v grafu, používá heuristiku pro odhad vzdálenosti k cíli. Heuristika musí být přípustná (nepřecenit vzdálenost) a monotónní (vzdálenost se nikdy nezvýší).
+- **A* algoritmus**: Pro hledání nejkratší cesty v grafu, používá heuristiku pro odhad vzdálenosti k cíli. Heuristika musí být přípustná (nepřecenit vzdálenost) a monotónní (vzdálenost se nikdy nezvýší).
+
+---
 
 ## Pathfinding
 
